@@ -3,6 +3,9 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="Bee/App.axaml" value="Bee/Bee.csproj" />
+        <entry key="Bee/Assets/Resources1.axaml" value="Bee/Bee.csproj" />
+        <entry key="Bee/Assets/Themes.axaml" value="Bee/Bee.csproj" />
         <entry key="Bee/Views/MainWindow.axaml" value="Bee/Bee.csproj" />
       </map>
     </option>
