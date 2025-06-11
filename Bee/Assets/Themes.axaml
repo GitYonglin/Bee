@@ -5,12 +5,12 @@
   <ResourceDictionary.ThemeDictionaries>
     <!-- 亮色 -->
     <!-- <ResourceDictionary x:Key="Light"> -->
-    <ResourceDictionary x:Key="{x:Static keys:ThemeManager.Light}">
+    <ResourceDictionary x:Key="{x:Static keys:ThemeNames.Light}">
       <SolidColorBrush x:Key="BgBody" Color="blue"></SolidColorBrush>
       <SolidColorBrush x:Key="TextPrimary" Color="White"></SolidColorBrush>
     </ResourceDictionary>
     <!-- 暗色 -->
-    <ResourceDictionary x:Key="{x:Static keys:ThemeManager.Dark}">
+    <ResourceDictionary x:Key="{x:Static keys:ThemeNames.Dark}">
       <SolidColorBrush x:Key="BgBody" Color="Red"></SolidColorBrush>
       <SolidColorBrush x:Key="TextPrimary" Color="White"></SolidColorBrush>
     </ResourceDictionary>

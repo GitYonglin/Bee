@@ -6,8 +6,10 @@ using CommunityToolkit.Mvvm.Input;
 
 namespace Bee.ViewModels;
 
-public partial class MainWindowViewModel : ViewModelBase
+public partial class MainWindowViewModel(ThemeManager themeManager) : ViewModelBase
 {
+  private readonly ThemeManager _themeManager = themeManager;
+  
   [ObservableProperty]
   public partial string Greeting { get; set; } = "Welcome to Avalonia!";
 
@@ -15,8 +17,7 @@ public partial class MainWindowViewModel : ViewModelBase
   private void ThemeSwitch()
   {
     Debug.WriteLine("ThemeSwitch");
-    ThemeManager.Light7Dark();
-    
+    _themeManager.Light7Dark();
   }
 
 }
